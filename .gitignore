@@ -1,0 +1,6 @@
+Tomato_Leaf_Dataset/
+outputs/
+*.keras
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
