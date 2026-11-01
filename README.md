@@ -24,7 +24,7 @@ The dataset is **not** included in this repository. Download it from Kaggle (lin
 
 ## Run it
 
-**On Kaggle:** <!-- add your Kaggle notebook link here -->
+**On Kaggle:** https://www.kaggle.com/code/narimened/cnn-tomato-leaf-disease-classification
 
 **Locally:**
 
