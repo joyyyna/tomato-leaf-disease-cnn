@@ -1,6 +1,6 @@
 # Tomato Leaf Disease Classification with a CNN
 
-Computer vision / image processing course project (USTO-MB, M1 AI & Applications, 2025/2026).
+Computer vision / image processing course project (USTO-MB, M1 AI and its Applications, 2025/2026).
 
 A convolutional neural network that classifies tomato leaf images into 6 classes (5 diseases + healthy), plus a study of whether an image-enhancement preprocessing step improves the results.
 
@@ -28,7 +28,7 @@ The dataset is **not** included in this repository. Download it from Kaggle (lin
 
 **Locally:**
 
-1. Download the dataset and extract it so that the `Tomato_Leaf_Dataset/` folder sits next to the notebook.
+1. Download the dataset and extract it so that the `Tomato_Leaf_Dataset/` folder sits next to the notebook .
 2. Install the dependencies and open the notebook:
 
 ```bash
@@ -36,6 +36,6 @@ pip install -r requirements.txt
 jupyter notebook tomato_leaf_disease_cnn.ipynb
 ```
 
-The notebook uses the Kaggle input folder when it exists, and the local `Tomato_Leaf_Dataset/` folder otherwise. Plots and trained models are saved in `/kaggle/working` on Kaggle, or in `outputs/` locally.
+The notebook uses the Kaggle input folder when it exists, and the local `Tomato_Leaf_Dataset/` folder otherwise. Plots and trained models are saved in `/kaggle/working` on Kaggle, or in `outputs/` locally .
 
-Training is seeded (`SEED = 42`) and uses the same split, initialization and callbacks for both experiments, but results can still vary slightly across hardware and TensorFlow versions. On Kaggle, training takes much less time with a GPU accelerator turned on (notebook settings). The notebook also prints a warning if a model ends up near chance-level accuracy, which means the training failed and the cell should be re-run.
+Training is seeded (`SEED = 42`) and uses the same split, initialization and callbacks for both experiments, but results can still vary slightly across hardware and TensorFlow versions. On Kaggle, training takes much less time with a GPU accelerator turned on (notebook settings). The notebook also prints a warning if a model ends up near chance-level accuracy, which means the training failed and the cell should be re-run .
