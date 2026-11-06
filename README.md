@@ -39,3 +39,8 @@ jupyter notebook tomato_leaf_disease_cnn.ipynb
 The notebook uses the Kaggle input folder when it exists, and the local `Tomato_Leaf_Dataset/` folder otherwise. Plots and trained models are saved in `/kaggle/working` on Kaggle, or in `outputs/` locally .
 
 Training is seeded (`SEED = 42`) and uses the same split, initialization and callbacks for both experiments, but results can still vary slightly across hardware and TensorFlow versions. On Kaggle, training takes much less time with a GPU accelerator turned on (notebook settings). The notebook also prints a warning if a model ends up near chance-level accuracy, which means the training failed and the cell should be re-run .
+
+## Author
+
+- Riheb Talhi: Master's student in Artificial Intelligence and its Applications, USTO-MB.
+- Narimene Derkaoui: Master's student in Artificial Intelligence and its Applications, USTO-MB.
